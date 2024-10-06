@@ -1,0 +1,224 @@
+/* ================ Google Fonts ================ */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* ================ Define CSS Variables ================ */
+:root {
+  --header-height: 3.5rem;
+
+  /* ------- Colors ------- */
+  --title-color: #f3f7fb;
+  --text-color: #d1d7e1;
+  --text-color-light: #bfc8d4;
+  --primary-color: #5187c5;
+  --secondary-color: #00ffff;
+  --tertiary-color: #1a2135;
+  --quaternary-color: #35485e;
+  --gradient-primary-color: #041e42;
+  --gradient-secondary-color: #12100e;
+  --body-color: #0f141b;
+
+
+  /* ------- Font and Typography ------- */
+  /*  0.5rem = 8px | 1rem = 16px */
+  --largest-font-size: 2.5rem;
+  --larger-font-size: 1.75rem;
+  --large-font-size: 1.5rem;
+
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+
+  --normal-font-size: 0.95rem;
+  --small-font-size: 0.85rem;
+
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /* ------- z-index ------- */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/* ================ Responsive Font and Typography ================ */
+@media screen and (min-width: 1024px) {
+  :root {
+    --largest-font-size: 3.5rem;
+    --larger-font-size: 2.5rem;
+    --large-font-size: 2rem;
+
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+
+    --normal-font-size: 1.09rem;
+    --small-font-size: 0.95rem;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  :root {
+    --largest-font-size: 4.5rem;
+    --larger-font-size: 3rem;
+    --large-font-size: 2.5rem;
+  }
+}
+
+
+/* ================ Base Styling ================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+body,
+input,
+textarea,
+button {
+  font-size: var(--normal-font-size);
+}
+
+button,
+textarea,
+input {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+p {
+  line-height: 130%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ================ Re-usable CSS Classes ================= */
+.container {
+  max-width: 1200px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 3rem;
+}
+
+.section-Title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: 2.5rem;
+}
+
+.main {
+  overflow: hidden;
+}
+
+
+/* ================ Header & Nav ================ */
+
+
+/* Navigation for Mobile Devices */
+
+
+/* Show Menu */
+
+
+/* Active Link */
+
+
+/* Add Blur Header */
+
+
+
+/* ================ Button ================ */
+
+
+
+/* ================ Home ================ */
+
+
+/* Icon Scroll Animation */
+
+
+
+/* ================ Portfolio ================ */
+
+
+
+/* ================ About ================ */
+
+
+/* About */
+
+
+/* Experience */
+
+
+/* Skills */
+
+
+
+/* ================ Service ================ */
+
+
+
+/* ================ Contact ================ */
+
+
+
+/* ================ Footer ================ */
+
+
+
+/* ================ Scroll Up ================ */
+
+
+/* Show Scroll up */
+
+
+
+/* ================ ScrollBar ================ */
+
+
+
+
+/* ================ Break-points ================ */
+/* for small devices */
+
+
+/* for medium devices */
+
+
+/* for large devices */
+
