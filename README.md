@@ -12,4 +12,4 @@
 
 💙 Join the channel to see more videos like this. [Coding Programming](https://www.youtube.com/@codingprogramming786)
 
-![preview img](/preview.png)
+![preview img](/johnSmith-portfolio.png)
